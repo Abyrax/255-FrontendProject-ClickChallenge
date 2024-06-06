@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+#table1 {
+    margin: 50px auto;
+    margin-top: 50px; }
+#table2 { 
+    margin: 50px auto;
+    border-collapse: collapse;
+    margin-top: 50px;}
+#table1 td { 
+    width: 120px;
+    height: 120px;
+    border:0px solid #aaa;}
+#table2 td { 
+    width: 120px;
+    height: 120px;
+    border:1px solid #aaa;}
+span {
+    font-family: 'Abel', sans-serif;
+    text-align: center;
+    font-size: 1.2em; color: black;
+    padding-left: 30px;}
+#counter {
+    font-family: 'Abel', sans-serif;
+    font-size: 30px;
+    margin-top: 36px;
+    padding-left: 40px;
+    color: red;}
+#counter2 {
+    font-family: 'Abel', sans-serif;
+    font-size: 300px;
+    margin-top: 56px;
+    padding-left: 1000px;
+    padding-top: 500px;
+    color: palevioletred;}
+#hiscore {
+    font-family: 'Abel', sans-serif;
+    font-size: 30px;
+    padding-left: 50px;
+    margin-top: 36px;}
+#score {
+    font-family: 'Abel', sans-serif;
+    font-size: 73px;
+    margin-top: 0px;
+    padding-left: 40px;
+    color: greenyellow;}
+#timebar {
+    display: flex;
+    height: 20px;
+    width: 350px;
+    background-color: black;}
+#insidebar {
+    display: flex;
+    height: 10px;
+    width: 97%;
+    background-color: greenyellow;
+    margin-top: 5px;
+    margin-left: 5px;}
+#blackscreen div {
+    display: flex;
+    height: 1080px;
+    width: 1920px;
+    background-color: black;
+    margin-top: 0px;
+    margin-left: 0px;}
+#gameover {
+    display: absolute;
+    font-family: 'Abel', sans-serif;
+    font-size: 100px;    
+    text-align: center;
+    color: red;
+    text-shadow: 5px 5px grey;}
+#playagain {
+    display: absolute;
+    font-family: 'Abel', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: grey;
+    text-shadow: 2px 2px red;
+    animation-name: grow ;
+    animation-timing-function: ease-in-out;
+    animation-duration: 5s;
+    animation-iteration-count: 5 ;
+    animation-delay: 1s;
+}
+#newscore {
+    display: absolute;
+    font-family: 'Abel', sans-serif;
+    font-size: 100px;    
+    text-align: center;
+    color: red;
+    text-shadow: 5px 5px grey;}      
